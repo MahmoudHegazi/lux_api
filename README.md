@@ -12,7 +12,7 @@
 * install python3 ```shell sudo apt install [python3] || [python3.7] ```
 * install all the modules in the file any error not found seach how to install and copy the name of packge 
 * write the command uselly pip3 install packge name
-* if you did all steps correct run this command python3 __init__.py
+* if you did all steps correct run this command  ``` python3 __init__.py  ```
 * open the url localhost:5000/update
 
 
