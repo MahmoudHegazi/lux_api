@@ -80,3 +80,9 @@
 * time
 * date
 
+
+## how to know the API finished update
+
+*  ! do not reload the page during the steps
+*  <img src='sucess.JPG'>
+
