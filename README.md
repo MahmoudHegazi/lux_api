@@ -1,5 +1,7 @@
 # lux_api
 
+## first step save the appid in your pc 
+
 ## How To start local virtual machine and Test This API:
 * Download Vagrant
 * Download Virtual Box
@@ -18,24 +20,39 @@
 
 # list of all endpoint URL:
 
-0.  http://localhost:5000/update
-1.  http://localhost:5000/bakery
-2.  http://localhost:5000/bakery_data
-3.  http://localhost:5000/eggs
-4.  http://localhost:5000/eggs_data
-5.  http://localhost:5000/seafood
-6.  http://localhost:5000/seafood_data
-7.  http://localhost:5000/fruits
-8.  http://localhost:5000/fruits_data
-9.  http://localhost:5000/meat
-10. http://localhost:5000/meat_data
-11. http://localhost:5000/vegetables
-12. http://localhost:5000/vegetables_data
-13. http://localhost:5000/noodles_supplements
-14. http://localhost:5000/noodles_supplements_data
-15. http://localhost:5000/other_feshfood_links
-16. http://localhost:5000/other_fresh_food
 
+### API End Points (Use this to fetch the data)
+
+###### you can find your appid in freelancer.com chat and in what's.
+
+1. [server_ip]:[port_number]/fresh_food/[appid] 
+2. [server_ip]:[port_number]/freshfood_links/[appid]
+3. [server_ip]:[port_number]/grocery/[appid]
+4. [server_ip]:[port_number]/grocery_links[appid]
+5. [server_ip]:[port_number]/baby[appid]
+6. [server_ip]:[port_number]/baby_links/[appid]
+7. [server_ip]:[port_number]/child_and_frozen/[appid]
+8. [server_ip]:[port_number]/child_and_frozen_links/[appid]
+9. [server_ip]:[port_number]/health_and_beauty/[appid]
+10. [server_ip]:[port_number]/health_and_beautyLinks/[appid] 
+12. [server_ip]:[port_number]/household/[appid]
+13. [server_ip]:[port_number]/household_links/[appid] 
+14. [server_ip]:[port_number]/pets/[appid]
+15. [server_ip]:[port_number]/pets_links/[appid]
+
+
+
+### URL to start scraping Process
+
+##### !please note this url will delete the old database and scrape the new items so do not visit it if you do not need update the data.
+##### you can cancel by clicking [CTRL+c]
+
+* http://localhost:5000/update/[appid]
+
+### URL to print the all site data into new file (file_name) enter any file name without extension
+
+* [server_ip]:[port_number]/tesco_excel/[filename]
+* http://localhost:5000/tesco_excel/new_file  (example)
 
 ###### on the host change localhost:5000/update with your topdomain + /update
 ###### ! url end with data contain the proudct information, the orther one contains the source url and update time
